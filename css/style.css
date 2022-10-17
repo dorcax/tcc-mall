@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{border: 1px solid purple;
+    width: 90%;
+    margin: auto;
+
+}
+body{
+    font-family: "Helvetica";
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(#E21DD8,#8F3A8C);
+    position: relative;
+}
+.header .nav{
+    /*border: 1px solid #fff;*/
+    width: 18%;
+    position: absolute;
+    right: 20px;
+    top: 55px;
+}
+.nav a{
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.nav a:hover{
+    color: #E2E2E2;
+}
+.header form{
+    position: absolute;
+    left: 35%;
+    top: 50px;
+
+}
+.header input[type="text"]{
+    width: 300px;
+    height: 35px;
+    border: 0;
+    padding: 5px 10px;
+
+}
+.header input[type="submit"]{
+    width: 120px;
+    height: 45px;
+    background-color: cyan;
+    color: #fff;
+    font-weight: bold;
+    
+    border: none;
+    margin-left: -20px;
+}
+.header .logo{
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+.logo span a{
+    color:gold;
+    font-family: cursive;
+    font-size: 40px;
+    margin-right: 5px;
+
+}
+.logo h3{
+    color: #fff;
+    font-size: 30px;
+}
+.mini{
+    border:1px solid purple;
+    width: 20%;
+}
+.mini .mini1{
+    width: 100%;
+}
+.mini1 li{
+    border-bottom: 1px solid purple;
+}
+.mini li a{
+    color: purple;
+    font-weight: bolder;
+    font-size: 18px;
+    display: block;
+    padding: 5px 20px;
+
+}
+.mini1 li a:hover{
+    background-color: #8F3A8C;
+    color: #fff;
+    text-decoration: underline;
+}
+.mini2{
+    border: 1px solid purple;
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+}
+.main{
+    border: 1px solid purple;
+    width: 78.5%;
+}
+.product{
+    border: 1px solid purple;
+    width:21%;
+    height:450px;
+    float: left;
+    margin: 10px 10px;
+    position: relative;
+}
+.main img{
+    width: 100%;
+    
+}
+.mini, .main{
+    float: left;
+}
+.product .call-to-action{
+    background: linear-gradient(#e21dd8,#8f3a8c);
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.product .call-to-action:hover{
+    cursor: pointer;
+    background-color: purple;
+}
+
+.footer{
+    clear: both;
+    background: linear-gradient(#E21DD8,#8F3A8C);
+    height: 200px;
+    position: relative;
+}
+.footer .contact,.footer .socials,.footer .links{
+    border: 1px solid #fff;
+    width: 25%;
+}
+ .footer .links{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.footer .socials{
+    position: absolute;
+    top: 20px;
+    left: 37%;
+}
+.footer .contact{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.footer h3{
+    color: #e2e2e2;
+    margin-bottom: 20px;
+} 
